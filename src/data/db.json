@@ -1,0 +1,9 @@
+{
+  "posts":  [
+        {"id": 1, "title": "Title 1", "category": "react"},
+        {"id": 3, "title": "Title 2", "category": "react"},
+        {"id": 3, "title": "Title 3", "category": "react"},
+        {"id": 1, "title": "Title 4", "category": "react"},
+        {"id": 1, "title": "Title 5", "category": "react"}
+    ]
+}

@@ -11,7 +11,7 @@ module.exports = {
     filename: 'bundle.js',
     // publicPath: 'public'
   },
-  mode:"production",
+  mode:"development",
   devtool: 'inline-source-map',
   devServer: {
     static: './dist',
@@ -21,6 +21,11 @@ module.exports = {
     rules: [
       {
         test: /\.tsx$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.ts$/,
         use: 'ts-loader',
         exclude: /node_modules/,
       },
